@@ -1,0 +1,17 @@
+int a, b, c, m;
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            c = int.Parse(Console.ReadLine());
+            if (a > b)
+            {
+                a = m; a = b; b = m;
+            }
+            if (a > c)
+            {
+                m = a; a = c; c = m;
+            }
+            if (b > c)
+            {
+                b = m; c = b; c = m;
+            }
+            Console.WriteLine(a + "" + b + "" + c);
