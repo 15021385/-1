@@ -1,0 +1,13 @@
+int d1, m1, y1, d2, m2, y2, r1, r3, r2, r;
+            d1 = int.Parse(Console.ReadLine());
+            m1 = int.Parse(Console.ReadLine());
+            y1 = int.Parse(Console.ReadLine());
+           
+            d2 = int.Parse(Console.ReadLine());
+            m2 = int.Parse(Console.ReadLine());
+            y2 = int.Parse(Console.ReadLine());
+            if (m1 <= 6)
+            {
+                r1 = 365 - ((m1 - 1) * 31 + d1);
+
+            }
